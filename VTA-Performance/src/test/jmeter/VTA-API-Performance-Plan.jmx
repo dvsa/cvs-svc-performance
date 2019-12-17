@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.1.1 r1855137">
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.2.1">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="CVS-API-Performance-Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -13,7 +13,7 @@
     </TestPlan>
     <hashTree>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV PSV Data" enabled="true">
-        <stringProp name="filename">./data/psvs.csv</stringProp>
+        <stringProp name="filename">../../data/psvs.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames">vin,vrm,noOfAxles,numberOfSeats,odometerReading,testEndTimestamp,testStartTimestamp,testStationName,testStationPNumber,testerEmailAddress,vehicleCode,vehicleDesc,vehicleSize,vehicleType</stringProp>
         <boolProp name="ignoreFirstLine">true</boolProp>
@@ -25,7 +25,7 @@
       </CSVDataSet>
       <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV HGV Data " enabled="false">
-        <stringProp name="filename">./data/hgvs.csv</stringProp>
+        <stringProp name="filename">../../data/hgvs.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames">vin,vrm,noOfAxles,odometerReading,testEndTimestamp,testStartTimestamp,testStationNam,testStationPNumber,testerEmailAddress,testerName,vehicleCode,vehicleDescription,vehicleConfig,vehicleType</stringProp>
         <boolProp name="ignoreFirstLine">true</boolProp>
@@ -37,7 +37,7 @@
       </CSVDataSet>
       <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Staff ID" enabled="true">
-        <stringProp name="filename">./data/staff.csv</stringProp>
+        <stringProp name="filename">../../data/staff.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames">staffId</stringProp>
         <boolProp name="ignoreFirstLine">true</boolProp>
@@ -52,22 +52,22 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="USERNAME" elementType="Argument">
             <stringProp name="Argument.name">USERNAME</stringProp>
-            <stringProp name="Argument.value">ENTER USERNAME</stringProp>
+            <stringProp name="Argument.value">${__P(username)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="PASSWORD" elementType="Argument">
             <stringProp name="Argument.name">PASSWORD</stringProp>
-            <stringProp name="Argument.value">ENTER PASSWORD</stringProp>
+            <stringProp name="Argument.value">${__P(password)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="TOKEN_URL" elementType="Argument">
             <stringProp name="Argument.name">TOKEN_URL</stringProp>
-            <stringProp name="Argument.value">ENTER TOKEN URL ONLY COPYING UPTO /outh2</stringProp>
+            <stringProp name="Argument.value">${__P(tokenurl)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="CLIENT_ID" elementType="Argument">
             <stringProp name="Argument.name">CLIENT_ID</stringProp>
-            <stringProp name="Argument.value">ENTER CLIENT ID FROM TOKEN URL</stringProp>
+            <stringProp name="Argument.value">${__P(clientid)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -84,9 +84,10 @@
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
-        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="Authentication" enabled="true">
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="Authenticate" enabled="true">
           <stringProp name="cacheKey">true</stringProp>
           <stringProp name="filename"></stringProp>
           <stringProp name="parameters"></stringProp>
@@ -121,12 +122,11 @@ try {
 
 } finally {
   service.shutdown();
-}
-</stringProp>
+}</stringProp>
           <stringProp name="scriptLanguage">groovy</stringProp>
         </JSR223Sampler>
         <hashTree/>
-        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="Authorization" enabled="true">
+        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="Authorized" enabled="true">
           <collectionProp name="HeaderManager.headers">
             <elementProp name="" elementType="Header">
               <stringProp name="Header.name">Authorization</stringProp>
@@ -156,7 +156,7 @@ try {
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">ENTER API URL</stringProp>
+          <stringProp name="HTTPSampler.domain">${__P(baseurl)}/activities</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -187,7 +187,7 @@ try {
             <intProp name="Assertion.test_type">16</intProp>
           </ResponseAssertion>
           <hashTree/>
-          <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Gaussian Random Timer" enabled="true">
+          <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Timer" enabled="true">
             <stringProp name="ConstantTimer.delay">3000</stringProp>
             <stringProp name="RandomTimer.range">1000</stringProp>
           </GaussianRandomTimer>
@@ -255,7 +255,7 @@ try {
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">ENTER API URL</stringProp>
+          <stringProp name="HTTPSampler.domain">${__P(baseurl)}/test-results</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -280,7 +280,7 @@ try {
             <intProp name="Assertion.test_type">16</intProp>
           </ResponseAssertion>
           <hashTree/>
-          <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Gaussian Random Timer" enabled="true">
+          <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Timer" enabled="true">
             <stringProp name="ConstantTimer.delay">3000</stringProp>
             <stringProp name="RandomTimer.range">1000</stringProp>
           </GaussianRandomTimer>
@@ -290,7 +290,7 @@ try {
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">ENTER API URL HERE /${testId}/end</stringProp>
+          <stringProp name="HTTPSampler.domain">${__P(baseurl)}/activities/${testId}/end</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -315,7 +315,7 @@ try {
             <intProp name="Assertion.test_type">16</intProp>
           </ResponseAssertion>
           <hashTree/>
-          <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Gaussian Random Timer" enabled="true">
+          <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Timer" enabled="true">
             <stringProp name="ConstantTimer.delay">3000</stringProp>
             <stringProp name="RandomTimer.range">1000</stringProp>
           </GaussianRandomTimer>
@@ -485,7 +485,7 @@ try {
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">api.nonprod.cvs.dvsacloud.uk/cvsb-8617/activities/</stringProp>
+          <stringProp name="HTTPSampler.domain">${__P(baseurl)}/activities/</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -578,7 +578,7 @@ try {
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">api.nonprod.cvs.dvsacloud.uk/cvsb-8617/test-results/</stringProp>
+          <stringProp name="HTTPSampler.domain">${__P(baseurl)}/test-results/</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -613,7 +613,7 @@ try {
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">api.nonprod.cvs.dvsacloud.uk/cvsb-8617/activities/${testid}/end</stringProp>
+          <stringProp name="HTTPSampler.domain">${__P(baseurl)}/activities/${testid}/end</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -809,7 +809,7 @@ try {
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">api.nonprod.cvs.dvsacloud.uk/cvsb-8617/activities/</stringProp>
+          <stringProp name="HTTPSampler.domain">${__P(baseurl)}/activities/</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -909,7 +909,7 @@ try {
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">api.nonprod.cvs.dvsacloud.uk/cvsb-8617/test-results/</stringProp>
+          <stringProp name="HTTPSampler.domain">${__P(baseurl)}/test-results/</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -944,7 +944,7 @@ try {
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">api.nonprod.cvs.dvsacloud.uk/cvsb-8617/activities/${testid}/end</stringProp>
+          <stringProp name="HTTPSampler.domain">${__P(baseurl)}/activities/${testid}/end</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
