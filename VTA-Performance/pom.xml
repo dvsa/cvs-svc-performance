@@ -1,144 +1,157 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>VTA</groupId>
-  <artifactId>jmeter-VTAApiTests</artifactId>
-  <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
-  <name>VTA-PerformanceTest</name>
-  <url>http://maven.apache.org</url>
-  <dependencies>
-      <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>3.8.1</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
-      <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-api</artifactId>
-        <version>1.7.21</version>
-      </dependency>
-      <!-- https://mvnrepository.com/artifact/com.nimbusds/oauth2-oidc-sdk -->
-      <dependency>
-          <groupId>com.nimbusds</groupId>
-          <artifactId>oauth2-oidc-sdk</artifactId>
-          <version>6.5</version>
-          <scope>runtime</scope>
-      </dependency>
-      <!-- https://mvnrepository.com/artifact/com.nimbusds/nimbus-jose-jwt -->
-      <dependency>
-          <groupId>com.nimbusds</groupId>
-          <artifactId>nimbus-jose-jwt</artifactId>
-          <version>8.2</version>
-      </dependency>
-      <!-- https://mvnrepository.com/artifact/com.nimbusds/lang-tag -->
-      <dependency>
-          <groupId>com.nimbusds</groupId>
-          <artifactId>lang-tag</artifactId>
-          <version>1.4.4</version>
-      </dependency>
-      <!-- https://mvnrepository.com/artifact/net.minidev/json-smart -->
-      <dependency>
-          <groupId>net.minidev</groupId>
-          <artifactId>json-smart</artifactId>
-          <version>2.3</version>
-      </dependency>
-      <!-- https://mvnrepository.com/artifact/com.github.stephenc.jcip/jcip-annotations -->
-      <dependency>
-          <groupId>com.github.stephenc.jcip</groupId>
-          <artifactId>jcip-annotations</artifactId>
-          <version>1.0-1</version>
-      </dependency>
-      <!-- https://mvnrepository.com/artifact/javax.mail/javax.mail-api -->
-      <dependency>
-          <groupId>javax.mail</groupId>
-          <artifactId>javax.mail-api</artifactId>
-          <version>1.6.1</version>
-      </dependency>
-      <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
-      <dependency>
-          <groupId>com.google.code.gson</groupId>
-          <artifactId>gson</artifactId>
-          <version>2.8.0</version>
-      </dependency>
-      <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
-      <dependency>
-          <groupId>org.apache.commons</groupId>
-          <artifactId>commons-lang3</artifactId>
-          <version>3.5</version>
-      </dependency>
-      <!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
-      <dependency>
-          <groupId>commons-codec</groupId>
-          <artifactId>commons-codec</artifactId>
-          <version>1.11</version>
-      </dependency>
-      <!-- https://mvnrepository.com/artifact/org.ow2.asm/asm -->
-      <dependency>
-          <groupId>org.ow2.asm</groupId>
-          <artifactId>asm</artifactId>
-          <version>5.0.4</version>
-      </dependency>
-      <!-- https://mvnrepository.com/artifact/com.microsoft.azure/adal4j -->
-      <dependency>
-          <groupId>com.microsoft.azure</groupId>
-          <artifactId>adal4j</artifactId>
-          <version>1.6.4</version>
-      </dependency>
-      <!-- https://mvnrepository.com/artifact/org.apache.geronimo.specs/geronimo-activation_1.1_spec -->
-      <dependency>
-          <groupId>org.apache.geronimo.specs</groupId>
-          <artifactId>geronimo-activation_1.1_spec</artifactId>
-          <version>1.1</version>
-      </dependency>
-      <!-- https://mvnrepository.com/artifact/net.minidev/accessors-smart -->
-      <dependency>
-          <groupId>net.minidev</groupId>
-          <artifactId>accessors-smart</artifactId>
-          <version>1.2</version>
-      </dependency>
-  </dependencies> 
-  <build>
-         <plugins>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>VTA</groupId>
+    <artifactId>jmeter-VTAApiTests</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>VTA-PerformanceTest</name>
+    <url>http://maven.apache.org</url>
+    <properties>
+        <username></username>
+        <password></password>
+        <tokenurl></tokenurl>
+        <clientid></clientid>
+        <baseurl></baseurl>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.21</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.nimbusds/oauth2-oidc-sdk -->
+        <dependency>
+            <groupId>com.nimbusds</groupId>
+            <artifactId>oauth2-oidc-sdk</artifactId>
+            <version>6.5</version>
+            <scope>runtime</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.nimbusds/nimbus-jose-jwt -->
+        <dependency>
+            <groupId>com.nimbusds</groupId>
+            <artifactId>nimbus-jose-jwt</artifactId>
+            <version>8.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.nimbusds/lang-tag -->
+        <dependency>
+            <groupId>com.nimbusds</groupId>
+            <artifactId>lang-tag</artifactId>
+            <version>1.4.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/net.minidev/json-smart -->
+        <dependency>
+            <groupId>net.minidev</groupId>
+            <artifactId>json-smart</artifactId>
+            <version>2.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.github.stephenc.jcip/jcip-annotations -->
+        <dependency>
+            <groupId>com.github.stephenc.jcip</groupId>
+            <artifactId>jcip-annotations</artifactId>
+            <version>1.0-1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/javax.mail/javax.mail-api -->
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>javax.mail-api</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.5</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.11</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.ow2.asm/asm -->
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>5.0.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.microsoft.azure/adal4j -->
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>adal4j</artifactId>
+            <version>1.6.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.geronimo.specs/geronimo-activation_1.1_spec -->
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-activation_1.1_spec</artifactId>
+            <version>1.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/net.minidev/accessors-smart -->
+        <dependency>
+            <groupId>net.minidev</groupId>
+            <artifactId>accessors-smart</artifactId>
+            <version>1.2</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
             <plugin>
                 <groupId>com.lazerycode.jmeter</groupId>
                 <artifactId>jmeter-maven-plugin</artifactId>
                 <version>2.9.0</version>
-              <executions>
-                   <execution>
+                <executions>
+                    <execution>
                         <id>jmeter-tests</id>
                         <goals>
-                           <goal>jmeter</goal>
+                            <goal>jmeter</goal>
                         </goals>
-                  </execution>
-              </executions>
+                    </execution>
+                </executions>
                 <configuration>
-                            <jmeterExtensions>
-                                <artifact>kg.apc:jmeter-plugins-casutg:2.4</artifact>
-                                <artifact>org.slf4j:slf4j-api:1.7.21</artifact>
-                                <artifact>com.nimbusds:oauth2-oidc-sdk:6.5</artifact>
-                                <artifact>com.nimbusds:nimbus-jose-jwt:8.2</artifact>
-                                <artifact>com.nimbusds:lang-tag:1.4.4</artifact>
-                                <artifact>net.minidev:json-smart:2.3</artifact>
-                                <artifact>com.github.stephenc.jcip:jcip-annotations:1.0-1</artifact>
-                                <artifact>javax.mail:javax.mail-api:1.6.1</artifact>
-                                <artifact>com.google.code.gson:gson:2.8.0</artifact>
-                                <artifact>org.apache.commons:commons-lang3:3.5</artifact>
-                                <artifact>commons-codec:commons-codec:1.11</artifact>
-                                <artifact>org.ow2.asm:asm:5.0.4</artifact>
-                                <artifact>com.microsoft.azure:adal4j:1.6.4</artifact>
-                                <artifact>org.apache.geronimo.specs:geronimo-activation_1.1_spec:1.1</artifact>
-                                <artifact>net.minidev:accessors-smart:1.2</artifact>
-                            </jmeterExtensions>
-                            <!-- The plugin uses some broken dependencies 
+                    <propertiesUser>
+                        <username>${username}</username>
+                        <password>${password}</password>
+                        <tokenurl>${tokenurl}</tokenurl>
+                        <clientid>${clientid}</clientid>
+                        <baseurl>${baseurl}</baseurl>
+                    </propertiesUser>
+                    <jmeterExtensions>
+                        <artifact>kg.apc:jmeter-plugins-casutg:2.4</artifact>
+                        <artifact>org.slf4j:slf4j-api:1.7.21</artifact>
+                        <artifact>com.nimbusds:oauth2-oidc-sdk:6.5</artifact>
+                        <artifact>com.nimbusds:nimbus-jose-jwt:8.2</artifact>
+                        <artifact>com.nimbusds:lang-tag:1.4.4</artifact>
+                        <artifact>net.minidev:json-smart:2.3</artifact>
+                        <artifact>com.github.stephenc.jcip:jcip-annotations:1.0-1</artifact>
+                        <artifact>javax.mail:javax.mail-api:1.6.1</artifact>
+                        <artifact>com.google.code.gson:gson:2.8.0</artifact>
+                        <artifact>org.apache.commons:commons-lang3:3.5</artifact>
+                        <artifact>commons-codec:commons-codec:1.11</artifact>
+                        <artifact>org.ow2.asm:asm:5.0.4</artifact>
+                        <artifact>com.microsoft.azure:adal4j:1.6.4</artifact>
+                        <artifact>org.apache.geronimo.specs:geronimo-activation_1.1_spec:1.1</artifact>
+                        <artifact>net.minidev:accessors-smart:1.2</artifact>
+                    </jmeterExtensions>
+                    <!-- The plugin uses some broken dependencies 
                                  An alternative is to set this to true and use excludedArtifacts, see below
                             -->
-                      <downloadExtensionDependencies>False</downloadExtensionDependencies>
-                 </configuration>
+                    <downloadExtensionDependencies>False</downloadExtensionDependencies>
+                </configuration>
             </plugin>
         </plugins>
     </build>
