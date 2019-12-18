@@ -121,6 +121,12 @@ http://maven.apache.org/maven-v4_0_0.xsd">
                             <goal>jmeter</goal>
                         </goals>
                     </execution>
+                    <execution>
+                        <id>jmeter-check-results</id>
+                        <goals>
+                            <goal>results</goal>
+                        </goals>
+                    </execution>
                 </executions>
                 <configuration>
                     <propertiesUser>
