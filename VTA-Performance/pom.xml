@@ -111,6 +111,28 @@ http://maven.apache.org/maven-v4_0_0.xsd">
     <build>
         <plugins>
             <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.1.0</version>
+                <executions>
+                    <execution>
+                        <id>copy-resources</id>
+                        <phase>pre-integration-test</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${basedir}/target/data/</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>src/data</directory>
+                                    <filtering>true</filtering>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
                 <groupId>com.lazerycode.jmeter</groupId>
                 <artifactId>jmeter-maven-plugin</artifactId>
                 <version>3.0.0</version>
@@ -120,15 +142,6 @@ http://maven.apache.org/maven-v4_0_0.xsd">
                         <goals>
                             <goal>configure</goal>
                         </goals>
-                        <configuration>
-                            <propertiesUser>
-                                <username>${username}</username>
-                                <password>${password}</password>
-                                <tokenurl>${tokenurl}</tokenurl>
-                                <clientid>${clientid}</clientid>
-                                <baseurl>${baseurl}</baseurl>
-                            </propertiesUser>
-                        </configuration>
                     </execution>
                     <execution>
                         <id>jmeter-tests</id>
@@ -144,6 +157,13 @@ http://maven.apache.org/maven-v4_0_0.xsd">
                     </execution>
                 </executions>
                 <configuration>
+                    <propertiesUser>
+                        <username>${username}</username>
+                        <password>${password}</password>
+                        <tokenurl>${tokenurl}</tokenurl>
+                        <clientid>${clientid}</clientid>
+                        <baseurl>${baseurl}</baseurl>
+                    </propertiesUser>
                     <overrideRootLogLevel>debug</overrideRootLogLevel>
                     <jmeterExtensions>
                         <artifact>kg.apc:jmeter-plugins-casutg:2.4</artifact>
@@ -162,9 +182,7 @@ http://maven.apache.org/maven-v4_0_0.xsd">
                         <artifact>org.apache.geronimo.specs:geronimo-activation_1.1_spec:1.1</artifact>
                         <artifact>net.minidev:accessors-smart:1.2</artifact>
                     </jmeterExtensions>
-                    <!-- The plugin uses some broken dependencies 
-                                 An alternative is to set this to true and use excludedArtifacts, see below
-                            -->
+                    <!-- The plugin uses some broken dependencies, an alternative is to set this to true and use excludedArtifacts, see below: -->
                     <downloadExtensionDependencies>False</downloadExtensionDependencies>
                 </configuration>
             </plugin>
