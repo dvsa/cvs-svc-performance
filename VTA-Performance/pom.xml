@@ -116,6 +116,21 @@ http://maven.apache.org/maven-v4_0_0.xsd">
                 <version>2.9.0</version>
                 <executions>
                     <execution>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>configure</goal>
+                        </goals>
+                        <configuration>
+                            <propertiesUser>
+                                <username>${username}</username>
+                                <password>${password}</password>
+                                <tokenurl>${tokenurl}</tokenurl>
+                                <clientid>${clientid}</clientid>
+                                <baseurl>${baseurl}</baseurl>
+                            </propertiesUser>
+                        </configuration>
+                    </execution>
+                    <execution>
                         <id>jmeter-tests</id>
                         <goals>
                             <goal>jmeter</goal>
@@ -130,13 +145,6 @@ http://maven.apache.org/maven-v4_0_0.xsd">
                 </executions>
                 <configuration>
                     <overrideRootLogLevel>debug</overrideRootLogLevel>
-                    <propertiesUser>
-                        <username>${username}</username>
-                        <password>${password}</password>
-                        <tokenurl>${tokenurl}</tokenurl>
-                        <clientid>${clientid}</clientid>
-                        <baseurl>${baseurl}</baseurl>
-                    </propertiesUser>
                     <jmeterExtensions>
                         <artifact>kg.apc:jmeter-plugins-casutg:2.4</artifact>
                         <artifact>org.slf4j:slf4j-api:1.7.21</artifact>
