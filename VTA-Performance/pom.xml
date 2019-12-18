@@ -116,7 +116,7 @@ http://maven.apache.org/maven-v4_0_0.xsd">
                 <version>3.0.0</version>
                 <executions>
                     <execution>
-                        <phase>compile</phase>
+                        <id>configuration</id>
                         <goals>
                             <goal>configure</goal>
                         </goals>
