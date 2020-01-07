@@ -485,7 +485,7 @@ try {
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">${__P(baseurl)}/activities/</stringProp>
+          <stringProp name="HTTPSampler.domain">${__P(baseurl)}/activities</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
