@@ -13,6 +13,7 @@
         <tokenurl></tokenurl>
         <clientid></clientid>
         <baseurl></baseurl>
+	<branch></branch>
     </properties>
     <dependencies>
         <dependency>
@@ -162,6 +163,7 @@
                         <tokenurl>${tokenurl}</tokenurl>
                         <clientid>${clientid}</clientid>
                         <baseurl>${baseurl}</baseurl>
+			<branch>${branch}</branch>
                     </propertiesUser>
                     <overrideRootLogLevel>debug</overrideRootLogLevel>
                     <jmeterExtensions>
