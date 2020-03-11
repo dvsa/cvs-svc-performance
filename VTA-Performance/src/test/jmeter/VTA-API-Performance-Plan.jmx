@@ -15,7 +15,7 @@
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV PSV Data" enabled="true">
         <stringProp name="filename">../../data/psvs.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
-        <stringProp name="variableNames">vin,vrm,noOfAxles,numberOfSeats,odometerReading,testEndTimestamp,testStartTimestamp,testStationName,testStationPNumber,testerEmailAddress,vehicleCode,vehicleDesc,vehicleSize,vehicleType</stringProp>
+        <stringProp name="variableNames">vin,vrm,noOfAxles,systemNumber,numberOfSeats,odometerReading,testEndTimestamp,testStartTimestamp,testStationName,testStationPNumber,testerEmailAddress,vehicleCode,vehicleDesc,vehicleSize,vehicleType</stringProp>
         <boolProp name="ignoreFirstLine">true</boolProp>
         <stringProp name="delimiter">,</stringProp>
         <boolProp name="quotedData">false</boolProp>
@@ -202,6 +202,7 @@ try {
   &quot;euVehicleCategory&quot;: &quot;m1&quot;,&#xd;
   &quot;noOfAxles&quot;: ${noOfAxles},&#xd;
   &quot;numberOfSeats&quot;: ${numberOfSeats},&#xd;
+  &quot;systemNumber&quot;: &quot;${systemNumber}&quot;,&#xd;
   &quot;odometerReading&quot;: ${odometerReading},&#xd;
   &quot;odometerReadingUnits&quot;: &quot;kilometres&quot;,&#xd;
   &quot;preparerId&quot;: &quot; &quot;,&#xd;
