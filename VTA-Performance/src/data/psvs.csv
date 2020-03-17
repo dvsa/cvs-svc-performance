@@ -1,32 +1,32 @@
 vin,vrm,noOfAxles,systemNumber,numberOfSeats,odometerReading ,testEndTimestamp ,testStartTimestamp,testStationPNumber,testerEmailAddress,vehicleCode,vehicleDesc,vehicleSize,vehicleType
-A00095082,B2F1D98,2,10000001,86,23211,2017-10-18T11:46:10.000000Z,2017-10-18T11:23:12.000000Z,P50387,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A00217331,E9A3F43,2,10000002,46,16676,2017-05-25T11:27:37.000000Z,2017-05-25T10:36:21.000000Z,P50632,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A00403268,E1A5F42,2,10000003,27,93779,2018-11-13T13:37:29.000000Z,2018-11-13T12:46:28.000000Z,P10301,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A00403684,D6B2A59,2,10000004,73,152684,2018-07-20T14:56:42.000000Z,2018-07-20T13:52:19.000000Z,P10260,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A01540792,E6J5A82,2,10000005,35,25448,2018-02-21T10:09:13.000000Z,2018-02-21T09:19:33.000000Z,P50782,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A01670140,I9F5J47,2,10000006,62,124411,2019-02-25T08:58:39.000000Z,2019-02-25T08:01:39.000000Z,P10255,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A01671577,J0H1F52,2,10000007,41,228578,2017-06-06T13:13:30.000000Z,2017-06-06T12:06:56.000000Z,P50519,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A01671914,C4A5C06,2,10000008,41,119675,2017-06-23T13:15:28.000000Z,2017-06-23T12:28:58.000000Z,P50284,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A02143479,C8C2D00,2,10000009,66,248921,2018-02-28T10:20:24.000000Z,2018-02-28T09:15:30.000000Z,P10289,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A02146239,F9B0F27,2,10000010,74,114216,2017-08-25T11:54:00.000000Z,2017-08-25T11:03:07.000000Z,P50549,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A02149445,C0I0F34,2,10000011,75,221218,2018-07-20T08:05:48.000000Z,2018-07-20T07:18:02.000000Z,P10277,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A02150210,C1D5E11,2,10000012,78,168757,2018-12-03T15:14:44.000000Z,2018-12-03T14:29:10.000000Z,P50333,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A02150578,F3I5F45,2,10000013,60,24286,2018-10-18T08:45:46.000000Z,2018-10-18T08:00:04.000000Z,P10266,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A02152960,F2F0I24,2,10000014,70,241174,2018-03-19T11:25:48.000000Z,2018-03-19T11:24:28.000000Z,P50659,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A02153215,B7I1C45,2,10000015,30,225791,2019-02-07T09:25:46.000000Z,2019-02-07T08:39:50.000000Z,P10253,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A02158691,F0B3A28,2,10000016,31,16870,2019-03-06T09:35:04.000000Z,2019-03-06T08:53:48.000000Z,P50382,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A02158853,F4E9A98,2,10000017,43,124480,2019-02-15T10:53:13.000000Z,2019-02-15T10:13:21.000000Z,P50605,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A02298931,G2G5I74,2,10000018,99,413816,2018-07-06T08:48:37.000000Z,2018-07-06T07:54:56.000000Z,P10319,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A02557843,F9B7C25,2,10000019,33,328310,2018-03-20T12:05:39.000000Z,2018-03-20T11:20:25.000000Z,P50612,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A02558128,J6I1C00,2,10000020,33,337397,2017-10-06T14:56:18.000000Z,2017-10-06T14:09:09.000000Z,P50472,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A02558199,A2I4E50,2,10000021,33,502537,2019-02-05T11:29:35.000000Z,2019-02-05T10:50:21.000000Z,P50572,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A02583033,C7A1E58,2,10000022,16,13700,2018-06-21T10:44:15.000000Z,2018-06-21T09:58:02.000000Z,P50315,cvs_migrated_tester@dvsa.gov.uk,s,small psv (ie: less than or equal to 22 seats),small,psv
+A00095082,B2F1D98,2,10000001,86,23211,2017-10-18T11:46:10.000000Z,2017-10-18T11:23:12.000000Z,P50387,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A00217331,E9A3F43,2,10000002,46,16676,2017-05-25T11:27:37.000000Z,2017-05-25T10:36:21.000000Z,P50632,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A00403268,E1A5F42,2,10000003,27,93779,2018-11-13T13:37:29.000000Z,2018-11-13T12:46:28.000000Z,P10301,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A00403684,D6B2A59,2,10000004,73,152684,2018-07-20T14:56:42.000000Z,2018-07-20T13:52:19.000000Z,P10260,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A01540792,E6J5A82,2,10000005,35,25448,2018-02-21T10:09:13.000000Z,2018-02-21T09:19:33.000000Z,P50782,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A01670140,I9F5J47,2,10000006,62,124411,2019-02-25T08:58:39.000000Z,2019-02-25T08:01:39.000000Z,P10255,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A01671577,J0H1F52,2,10000007,41,228578,2017-06-06T13:13:30.000000Z,2017-06-06T12:06:56.000000Z,P50519,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A01671914,C4A5C06,2,10000008,41,119675,2017-06-23T13:15:28.000000Z,2017-06-23T12:28:58.000000Z,P50284,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A02143479,C8C2D00,2,10000009,66,248921,2018-02-28T10:20:24.000000Z,2018-02-28T09:15:30.000000Z,P10289,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A02146239,F9B0F27,2,10000010,74,114216,2017-08-25T11:54:00.000000Z,2017-08-25T11:03:07.000000Z,P50549,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A02149445,C0I0F34,2,10000011,75,221218,2018-07-20T08:05:48.000000Z,2018-07-20T07:18:02.000000Z,P10277,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A02150210,C1D5E11,2,10000012,78,168757,2018-12-03T15:14:44.000000Z,2018-12-03T14:29:10.000000Z,P50333,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A02150578,F3I5F45,2,10000013,60,24286,2018-10-18T08:45:46.000000Z,2018-10-18T08:00:04.000000Z,P10266,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A02152960,F2F0I24,2,10000014,70,241174,2018-03-19T11:25:48.000000Z,2018-03-19T11:24:28.000000Z,P50659,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A02153215,B7I1C45,2,10000015,30,225791,2019-02-07T09:25:46.000000Z,2019-02-07T08:39:50.000000Z,P10253,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A02158691,F0B3A28,2,10000016,31,16870,2019-03-06T09:35:04.000000Z,2019-03-06T08:53:48.000000Z,P50382,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A02158853,F4E9A98,2,10000017,43,124480,2019-02-15T10:53:13.000000Z,2019-02-15T10:13:21.000000Z,P50605,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A02298931,G2G5I74,2,10000018,99,413816,2018-07-06T08:48:37.000000Z,2018-07-06T07:54:56.000000Z,P10319,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A02557843,F9B7C25,2,10000019,33,328310,2018-03-20T12:05:39.000000Z,2018-03-20T11:20:25.000000Z,P50612,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A02558128,J6I1C00,2,10000020,33,337397,2017-10-06T14:56:18.000000Z,2017-10-06T14:09:09.000000Z,P50472,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A02558199,A2I4E50,2,10000021,33,502537,2019-02-05T11:29:35.000000Z,2019-02-05T10:50:21.000000Z,P50572,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A02583033,C7A1E58,2,10000022,16,13700,2018-06-21T10:44:15.000000Z,2018-06-21T09:58:02.000000Z,P50315,cvs_migrated_tester@dvsa.gov.uk,l,small psv (ie: less than or equal to 22 seats),small,psv
 A02592947,I5H7F91,2,10000023,16,50708,2017-10-30T11:12:34.000000Z,2017-10-30T10:17:10.000000Z,P50792,cvs_migrated_tester@dvsa.gov.uk,s,small psv (ie: less than or equal to 22 seats),small,psv
 A02594554,B9E1I57,2,10000024,19,77151,2017-07-24T15:16:06.000000Z,2017-07-24T14:14:47.000000Z,P50429,cvs_migrated_tester@dvsa.gov.uk,s,small psv (ie: less than or equal to 22 seats),small,psv
 A02595216,C6E1E66,2,10000025,16,102321,2017-05-11T12:39:46.000000Z,2017-05-11T11:59:30.000000Z,P50674,cvs_migrated_tester@dvsa.gov.uk,s,small psv (ie: less than or equal to 22 seats),small,psv
-A02739645,E4E2E80,2,10000026,40,749368,2017-12-13T09:14:16.000000Z,2017-12-13T08:33:20.000000Z,P50565,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A02739645,E4E2E80,2,10000027,40,810025,2018-12-05T14:03:16.000000Z,2018-12-05T13:17:33.000000Z,P50801,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A02740120,E2J1C31,2,10000028,25,516087,2018-10-05T00:00:00.000000Z,2018-10-05T00:00:00.000000Z,P50694,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
+A02739645,E4E2E80,2,10000026,40,749368,2017-12-13T09:14:16.000000Z,2017-12-13T08:33:20.000000Z,P50565,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A02739645,E4E2E80,2,10000027,40,810025,2018-12-05T14:03:16.000000Z,2018-12-05T13:17:33.000000Z,P50801,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A02740120,E2J1C31,2,10000028,25,516087,2018-10-05T00:00:00.000000Z,2018-10-05T00:00:00.000000Z,P50694,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
 A02747101,D5A1H02,2,10000029,16,345166,2017-12-31T10:02:56.000000Z,2017-12-30T09:49:48.000000Z,P50822,cvs_migrated_tester@dvsa.gov.uk,s,small psv (ie: less than or equal to 22 seats),small,psv
 A02747635,A7F0J02,2,10000030,16,188765,2018-10-11T13:58:14.000000Z,2018-10-11T13:21:23.000000Z,P50333,cvs_migrated_tester@dvsa.gov.uk,s,small psv (ie: less than or equal to 22 seats),small,psv
 A02749235,B3E4C75,2,10000031,15,42357,2017-08-01T12:35:50.000000Z,2017-08-01T11:54:50.000000Z,P50607,cvs_migrated_tester@dvsa.gov.uk,s,small psv (ie: less than or equal to 22 seats),small,psv
@@ -35,36 +35,36 @@ A02751218,C7C1E30,2,10000033,16,77801,2018-12-18T10:31:42.000000Z,2018-12-18T09:
 A02754413,C8D3I01,2,10000034,17,203001,2018-06-21T11:03:15.000000Z,2018-06-21T09:54:06.000000Z,P50475,cvs_migrated_tester@dvsa.gov.uk,s,small psv (ie: less than or equal to 22 seats),small,psv
 A02757948,I4E1A44,2,10000035,14,13353,2017-09-11T09:09:34.000000Z,2017-09-11T08:30:40.000000Z,P50513,cvs_migrated_tester@dvsa.gov.uk,s,small psv (ie: less than or equal to 22 seats),small,psv
 A02759421,C5I0F02,2,10000036,16,5468,2018-02-15T14:27:37.000000Z,2018-02-15T13:52:46.000000Z,P50320,cvs_migrated_tester@dvsa.gov.uk,s,small psv (ie: less than or equal to 22 seats),small,psv
-A02815308,F5H7H70,2,10000037,48,470000,2017-09-20T11:31:19.000000Z,2017-09-20T10:28:37.000000Z,P50667,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A02851017,A1F1A61,2,10000038,60,473564,2017-07-13T14:17:07.000000Z,2017-07-13T13:04:17.000000Z,P50509,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A02926637,C5I3E81,2,10000039,43,52630,2018-09-11T16:50:29.000000Z,2018-09-11T16:05:49.000000Z,P50652,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03186333,D2E7J70,2,10000040,66,15005,2018-04-19T15:15:11.000000Z,2018-04-19T13:54:45.000000Z,P10274,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03244212,A0H3D87,2,10000041,40,475738,2018-09-27T14:34:51.000000Z,2018-09-27T13:50:40.000000Z,P50322,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03285361,G3C5A01,2,10000042,43,261016,2017-04-21T14:35:18.000000Z,2017-04-21T13:37:19.000000Z,P50537,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03431067,F5F4H90,2,10000043,44,567477,2017-04-07T10:58:26.000000Z,2017-04-07T10:02:44.000000Z,P50328,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03435479,D2C7G85,2,10000044,88,1027788,2017-09-07T12:26:23.000000Z,2017-09-07T11:24:55.000000Z,P50681,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03435571,C4B2G15,2,10000045,74,449149,2018-09-14T05:51:58.000000Z,2018-09-14T05:02:24.000000Z,P10244,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03437724,J6H3A68,3,10000046,98,142853,2018-05-30T10:16:12.000000Z,2018-05-30T09:24:08.000000Z,P10251,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03440157,D1D3A40,2,10000047,66,289278,2017-04-13T09:04:08.000000Z,2017-04-13T07:57:51.000000Z,P10312,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03442453,F0D7A43,3,10000048,72,381668,2017-04-05T13:55:58.000000Z,2017-04-05T13:03:44.000000Z,P50545,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03444678,H1D3J95,2,10000049,77,175870,2018-08-22T10:59:39.000000Z,2018-08-22T10:19:18.000000Z,P50602,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03459426,C2A8E90,2,10000050,63,287566,2018-04-24T16:14:01.000000Z,2018-04-24T15:00:44.000000Z,P50758,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03459432,F5A1F99,2,10000051,63,327785,2018-08-23T15:04:11.000000Z,2018-08-23T13:58:57.000000Z,P50684,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03459432,F5A1F99,2,10000052,63,310332,2017-08-31T13:05:52.000000Z,2017-08-31T13:02:02.000000Z,P50754,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03459432,F5A1F99,2,10000053,64,310359,2017-09-04T11:27:38.000000Z,2017-09-04T11:11:08.000000Z,P50754,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03459446,F7F1A25,2,10000054,68,18830,2017-10-13T11:05:39.000000Z,2017-10-13T10:06:36.000000Z,P50760,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03459517,I4C4D76,2,10000055,67,146580,2018-06-04T11:38:42.000000Z,2018-06-04T10:49:01.000000Z,P50774,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
+A02815308,F5H7H70,2,10000037,48,470000,2017-09-20T11:31:19.000000Z,2017-09-20T10:28:37.000000Z,P50667,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A02851017,A1F1A61,2,10000038,60,473564,2017-07-13T14:17:07.000000Z,2017-07-13T13:04:17.000000Z,P50509,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A02926637,C5I3E81,2,10000039,43,52630,2018-09-11T16:50:29.000000Z,2018-09-11T16:05:49.000000Z,P50652,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03186333,D2E7J70,2,10000040,66,15005,2018-04-19T15:15:11.000000Z,2018-04-19T13:54:45.000000Z,P10274,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03244212,A0H3D87,2,10000041,40,475738,2018-09-27T14:34:51.000000Z,2018-09-27T13:50:40.000000Z,P50322,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03285361,G3C5A01,2,10000042,43,261016,2017-04-21T14:35:18.000000Z,2017-04-21T13:37:19.000000Z,P50537,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03431067,F5F4H90,2,10000043,44,567477,2017-04-07T10:58:26.000000Z,2017-04-07T10:02:44.000000Z,P50328,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03435479,D2C7G85,2,10000044,88,1027788,2017-09-07T12:26:23.000000Z,2017-09-07T11:24:55.000000Z,P50681,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03435571,C4B2G15,2,10000045,74,449149,2018-09-14T05:51:58.000000Z,2018-09-14T05:02:24.000000Z,P10244,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03437724,J6H3A68,3,10000046,98,142853,2018-05-30T10:16:12.000000Z,2018-05-30T09:24:08.000000Z,P10251,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03440157,D1D3A40,2,10000047,66,289278,2017-04-13T09:04:08.000000Z,2017-04-13T07:57:51.000000Z,P10312,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03442453,F0D7A43,3,10000048,72,381668,2017-04-05T13:55:58.000000Z,2017-04-05T13:03:44.000000Z,P50545,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03444678,H1D3J95,2,10000049,77,175870,2018-08-22T10:59:39.000000Z,2018-08-22T10:19:18.000000Z,P50602,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03459426,C2A8E90,2,10000050,63,287566,2018-04-24T16:14:01.000000Z,2018-04-24T15:00:44.000000Z,P50758,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03459432,F5A1F99,2,10000051,63,327785,2018-08-23T15:04:11.000000Z,2018-08-23T13:58:57.000000Z,P50684,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03459432,F5A1F99,2,10000052,63,310332,2017-08-31T13:05:52.000000Z,2017-08-31T13:02:02.000000Z,P50754,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03459432,F5A1F99,2,10000053,64,310359,2017-09-04T11:27:38.000000Z,2017-09-04T11:11:08.000000Z,P50754,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03459446,F7F1A25,2,10000054,68,18830,2017-10-13T11:05:39.000000Z,2017-10-13T10:06:36.000000Z,P50760,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03459517,I4C4D76,2,10000055,67,146580,2018-06-04T11:38:42.000000Z,2018-06-04T10:49:01.000000Z,P50774,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
 A03467526,B2A3F03,2,10000056,16,179194,2017-08-17T10:45:27.000000Z,2017-08-17T10:00:06.000000Z,P50529,cvs_migrated_tester@dvsa.gov.uk,s,small psv (ie: less than or equal to 22 seats),small,psv
 A03467526,B2A3F03,2,10000057,16,221457,2018-08-10T13:09:03.000000Z,2018-08-10T12:35:02.000000Z,P50529,cvs_migrated_tester@dvsa.gov.uk,s,small psv (ie: less than or equal to 22 seats),small,psv
 A03512666,A2D3A51,2,10000058,22,44906,2018-12-28T11:55:07.000000Z,2018-12-28T11:03:18.000000Z,P50641,cvs_migrated_tester@dvsa.gov.uk,s,small psv (ie: less than or equal to 22 seats),small,psv
-A03513314,H1D5H55,2,10000059,25,58419,2018-08-29T13:50:20.000000Z,2018-08-29T13:42:24.000000Z,P50516,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03513343,G0B2B44,2,10000060,25,1668,2018-09-21T10:35:20.000000Z,2018-09-21T10:18:08.000000Z,P50846,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03513343,G0B2B44,2,10000061,25,26018,2018-10-19T08:42:52.000000Z,2018-10-19T08:02:24.000000Z,P50846,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
+A03513314,H1D5H55,2,10000059,25,58419,2018-08-29T13:50:20.000000Z,2018-08-29T13:42:24.000000Z,P50516,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03513343,G0B2B44,2,10000060,25,1668,2018-09-21T10:35:20.000000Z,2018-09-21T10:18:08.000000Z,P50846,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03513343,G0B2B44,2,10000061,25,26018,2018-10-19T08:42:52.000000Z,2018-10-19T08:02:24.000000Z,P50846,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
 A03513364,I5E2C17,2,10000062,17,44560,2019-04-05T09:52:03.000000Z,2019-04-05T09:06:26.000000Z,P50421,cvs_migrated_tester@dvsa.gov.uk,s,small psv (ie: less than or equal to 22 seats),small,psv
-A03513379,A1G9C01,2,10000063,29,104315,2019-02-11T10:39:12.000000Z,2019-02-11T09:52:48.000000Z,P50820,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03513484,E1I3I17,2,10000064,30,14484,2017-12-21T09:03:47.000000Z,2017-12-21T08:08:56.000000Z,P50641,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03513484,E1I3I17,2,10000065,30,31732,2018-11-12T10:56:37.000000Z,2018-11-12T10:19:57.000000Z,P50641,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
-A03513631,E7H7F99,2,10000066,29,97589,2019-03-14T12:57:16.000000Z,2019-03-14T12:04:40.000000Z,P50366,cvs_migrated_tester@dvsa.gov.uk,1,large psv(ie: greater than 23 seats),large,psv
+A03513379,A1G9C01,2,10000063,29,104315,2019-02-11T10:39:12.000000Z,2019-02-11T09:52:48.000000Z,P50820,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03513484,E1I3I17,2,10000064,30,14484,2017-12-21T09:03:47.000000Z,2017-12-21T08:08:56.000000Z,P50641,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03513484,E1I3I17,2,10000065,30,31732,2018-11-12T10:56:37.000000Z,2018-11-12T10:19:57.000000Z,P50641,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
+A03513631,E7H7F99,2,10000066,29,97589,2019-03-14T12:57:16.000000Z,2019-03-14T12:04:40.000000Z,P50366,cvs_migrated_tester@dvsa.gov.uk,l,large psv(ie: greater than 23 seats),large,psv
 A03520226,G3A5C91,2,10000067,12,163521,2017-08-08T12:15:04.000000Z,2017-08-08T11:25:47.000000Z,P50459,cvs_migrated_tester@dvsa.gov.uk,s,small psv (ie: less than or equal to 22 seats),small,psv
 A03520226,G3A5C91,2,10000068,12,163595,2017-08-16T15:20:54.000000Z,2017-08-16T15:07:35.000000Z,P50459,cvs_migrated_tester@dvsa.gov.uk,s,small psv (ie: less than or equal to 22 seats),small,psv
 A03520274,I7J5H23,2,10000069,16,102496,2017-04-13T09:20:08.000000Z,2017-04-13T08:36:34.000000Z,P50570,cvs_migrated_tester@dvsa.gov.uk,s,small psv (ie: less than or equal to 22 seats),small,psv
