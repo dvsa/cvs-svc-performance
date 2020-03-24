@@ -1,0 +1,15 @@
+version: 1
+update_configs:
+- package_manager: "java:maven"
+  directory: "/VTA-Performance"
+  update_schedule: "daily"
+  target_branch: "develop"
+  default_reviewers:
+  - "amy.turnbull"
+  - "MartiUK"
+  default_assignees:
+  - "amy.turnbull"
+  - "MartiUK"
+  allowed_updates:
+  - match:
+      update_type: "security"
