@@ -8,12 +8,12 @@
     <url>http://maven.apache.org</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <username></username>
-        <password></password>
-        <tokenurl></tokenurl>
-        <clientid></clientid>
-        <baseurl></baseurl>
-	<branch></branch>
+        <username/>
+        <password/>
+        <tokenurl/>
+        <clientid/>
+        <baseurl/>
+	<branch/>
     </properties>
     <dependencies>
         <dependency>
@@ -32,7 +32,7 @@
         <dependency>
             <groupId>com.nimbusds</groupId>
             <artifactId>oauth2-oidc-sdk</artifactId>
-            <version>6.5</version>
+            <version>6.23</version>
             <scope>runtime</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.nimbusds/nimbus-jose-jwt -->
