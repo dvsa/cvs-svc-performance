@@ -8,12 +8,12 @@
     <url>http://maven.apache.org</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <username></username>
-        <password></password>
-        <tokenurl></tokenurl>
-        <clientid></clientid>
-        <baseurl></baseurl>
-	<branch></branch>
+        <username/>
+        <password/>
+        <tokenurl/>
+        <clientid/>
+        <baseurl/>
+	<branch/>
     </properties>
     <dependencies>
         <dependency>
@@ -51,7 +51,7 @@
         <dependency>
             <groupId>net.minidev</groupId>
             <artifactId>json-smart</artifactId>
-            <version>2.3</version>
+            <version>2.4.7</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.github.stephenc.jcip/jcip-annotations -->
         <dependency>
