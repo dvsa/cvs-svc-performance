@@ -8,12 +8,12 @@
     <url>http://maven.apache.org</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <username></username>
-        <password></password>
-        <tokenurl></tokenurl>
-        <clientid></clientid>
-        <baseurl></baseurl>
-	<branch></branch>
+        <username/>
+        <password/>
+        <tokenurl/>
+        <clientid/>
+        <baseurl/>
+	<branch/>
     </properties>
     <dependencies>
         <dependency>
@@ -26,7 +26,7 @@
             <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.7.21</version>
+            <version>1.7.30</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.nimbusds/oauth2-oidc-sdk -->
         <dependency>
